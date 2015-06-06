@@ -1,0 +1,101 @@
+2015-05-21T10:08:50.844361+00:00 heroku[router]: at=info method=GET path="/sign_up" host=creditcardapplicants.herokuapp.com request_id=869a1598-af3d-44e9-b79b-802cad4a7bc0 fwd="140.114.202.172" dyno=web.1 connect=0ms service=2ms status=200 bytes=1796
+2015-05-21T10:08:50.843497+00:00 app[web.1]: 140.114.202.172 - - [21/May/2015:10:08:50 +0000] "GET /sign_up HTTP/1.1" 200 1344 0.0016
+2015-05-21T10:09:56.997454+00:00 heroku[router]: at=info method=GET path="/" host=creditcardapplicants.herokuapp.com request_id=fa4a7ebc-6866-4220-9ab1-6d6f4cf95961 fwd="140.114.202.172" dyno=web.1 connect=0ms service=3ms status=200 bytes=1048
+2015-05-21T10:09:56.997532+00:00 app[web.1]: 140.114.202.172 - - [21/May/2015:10:09:56 +0000] "GET / HTTP/1.1" 200 841 0.0015
+2015-05-21T10:14:38.143906+00:00 heroku[router]: at=info method=GET path="/" host=creditcardapplicants.herokuapp.com request_id=9d435989-c9b1-42dc-839f-5d8a097d6433 fwd="140.114.202.172" dyno=web.1 connect=3ms service=10ms status=200 bytes=1048
+2015-05-21T10:14:38.138307+00:00 app[web.1]: 140.114.202.172 - - [21/May/2015:10:14:38 +0000] "GET / HTTP/1.1" 200 841 0.0016
+2015-05-21T10:14:38.436605+00:00 heroku[router]: at=info method=GET path="/custom.css" host=creditcardapplicants.herokuapp.com request_id=4844db0e-18e2-47dd-ae7c-3120a81dee6d fwd="140.114.202.172" dyno=web.1 connect=1ms service=9ms status=304 bytes=95
+2015-05-21T10:14:38.428856+00:00 app[web.1]: 140.114.202.172 - - [21/May/2015:10:14:38 +0000] "GET /custom.css HTTP/1.1" 304 - 0.0010
+2015-05-21T10:14:39.320651+00:00 heroku[router]: at=info method=GET path="/" host=creditcardapplicants.herokuapp.com request_id=b48348fb-0672-4458-90f1-dca0d93e1947 fwd="140.114.202.172" dyno=web.1 connect=2ms service=10ms status=200 bytes=1048
+2015-05-21T10:14:39.310992+00:00 app[web.1]: 140.114.202.172 - - [21/May/2015:10:14:39 +0000] "GET / HTTP/1.1" 200 841 0.0014
+2015-05-21T10:14:39.580940+00:00 heroku[router]: at=info method=GET path="/custom.css" host=creditcardapplicants.herokuapp.com request_id=e8c031da-b4b3-4d5e-ac35-0d1dd17fe256 fwd="140.114.202.172" dyno=web.1 connect=1ms service=4ms status=304 bytes=95
+2015-05-21T10:14:39.576698+00:00 app[web.1]: 140.114.202.172 - - [21/May/2015:10:14:39 +0000] "GET /custom.css HTTP/1.1" 304 - 0.0015
+2015-05-21T10:14:40.271209+00:00 heroku[router]: at=info method=GET path="/" host=creditcardapplicants.herokuapp.com request_id=aa508ba7-d0b1-4b34-8ae7-ad43792be9cb fwd="140.114.202.172" dyno=web.1 connect=1ms service=10ms status=200 bytes=1048
+2015-05-21T10:14:40.267007+00:00 app[web.1]: 140.114.202.172 - - [21/May/2015:10:14:40 +0000] "GET / HTTP/1.1" 200 841 0.0066
+2015-05-21T10:14:40.540033+00:00 heroku[router]: at=info method=GET path="/custom.css" host=creditcardapplicants.herokuapp.com request_id=ef60014a-36c5-4601-8915-7f00becf6e69 fwd="140.114.202.172" dyno=web.1 connect=3ms service=4ms status=304 bytes=95
+2015-05-21T10:14:40.536820+00:00 app[web.1]: 140.114.202.172 - - [21/May/2015:10:14:40 +0000] "GET /custom.css HTTP/1.1" 304 - 0.0014
+2015-05-21T10:14:43.890148+00:00 heroku[router]: at=info method=GET path="/sign_up" host=creditcardapplicants.herokuapp.com request_id=cef15a48-5f15-42aa-93b9-cefbdd97db0a fwd="140.114.202.172" dyno=web.1 connect=0ms service=2ms status=200 bytes=1450
+2015-05-21T10:14:43.887990+00:00 app[web.1]: 140.114.202.172 - - [21/May/2015:10:14:43 +0000] "GET /sign_up HTTP/1.1" 200 1242 0.0014
+2015-05-21T10:14:46.004579+00:00 heroku[api]: Deploy a672a05 by jevonmckenzie.wesleycollege@gmail.com
+2015-05-21T10:14:46.004579+00:00 heroku[api]: Release v9 created by jevonmckenzie.wesleycollege@gmail.com
+2015-05-21T10:14:46.303983+00:00 heroku[web.1]: State changed from up to starting
+2015-05-21T10:14:49.514076+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2015-05-21T10:14:50.037028+00:00 heroku[web.1]: Starting process with command `bundle exec thin start -R config.ru -p 45897`
+2015-05-21T10:14:50.717281+00:00 app[web.1]: Thin web server (v1.6.3 codename Protein Powder)
+2015-05-21T10:14:50.717290+00:00 app[web.1]: Listening on 0.0.0.0:57909, CTRL+C to stop
+2015-05-21T10:14:50.717288+00:00 app[web.1]: Maximum connections set to 1024
+2015-05-21T10:14:51.416355+00:00 heroku[web.1]: Process exited with status 0
+2015-05-21T10:14:54.484549+00:00 heroku[web.1]: State changed from starting to up
+2015-05-21T10:15:04.873946+00:00 heroku[router]: at=info method=POST path="/sign_up" host=creditcardapplicants.herokuapp.com request_id=83046acf-f278-4197-b7bb-6504aa0e41a6 fwd="140.114.202.172" dyno=web.1 connect=2ms service=255ms status=500 bytes=255
+2015-05-21T10:15:04.862863+00:00 app[web.1]: 2015-05-21 10:15:04 - Net::SMTPFatalError - 550 Cannot receive from specified address <noreply@ismtpd-053>: Unauthenticated senders not allowed
+2015-05-21T10:15:04.862886+00:00 app[web.1]: :
+2015-05-21T10:15:04.862888+00:00 app[web.1]: 	/app/vendor/ruby-2.2.2/lib/ruby/2.2.0/net/smtp.rb:964:in `check_response'
+2015-05-21T10:15:04.862890+00:00 app[web.1]: 	/app/vendor/ruby-2.2.2/lib/ruby/2.2.0/net/smtp.rb:933:in `getok'
+2015-05-21T10:15:04.862891+00:00 app[web.1]: 	/app/vendor/ruby-2.2.2/lib/ruby/2.2.0/net/smtp.rb:841:in `mailfrom'
+2015-05-21T10:15:04.862892+00:00 app[web.1]: 	/app/vendor/ruby-2.2.2/lib/ruby/2.2.0/net/smtp.rb:662:in `send_message'
+2015-05-21T10:15:04.862894+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/mail-2.6.3/lib/mail/network/delivery_methods/smtp.rb:113:in `block in deliver!'
+2015-05-21T10:15:04.862896+00:00 app[web.1]: 	/app/vendor/ruby-2.2.2/lib/ruby/2.2.0/net/smtp.rb:521:in `start'
+2015-05-21T10:15:04.862897+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/mail-2.6.3/lib/mail/network/delivery_methods/smtp.rb:112:in `deliver!'
+2015-05-21T10:15:04.862899+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/mail-2.6.3/lib/mail/message.rb:252:in `deliver!'
+2015-05-21T10:15:04.862900+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/pony-1.11/lib/pony.rb:176:in `deliver'
+2015-05-21T10:15:04.862901+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/pony-1.11/lib/pony.rb:166:in `mail'
+2015-05-21T10:15:04.862903+00:00 app[web.1]: 	/app/helpers/credit_card_api_helper.rb:48:in `email_registration_verification'
+2015-05-21T10:15:04.862904+00:00 app[web.1]: 	/app/app.rb:74:in `block in <class:CreditCardAPI>'
+2015-05-21T10:15:04.862905+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1610:in `call'
+2015-05-21T10:15:04.862907+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1610:in `block in compile!'
+2015-05-21T10:15:04.862908+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:974:in `[]'
+2015-05-21T10:15:04.862909+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:974:in `block (3 levels) in route!'
+2015-05-21T10:15:04.862911+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:993:in `route_eval'
+2015-05-21T10:15:04.862912+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:974:in `block (2 levels) in route!'
+2015-05-21T10:15:04.862913+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1014:in `block in process_route'
+2015-05-21T10:15:04.862915+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1012:in `catch'
+2015-05-21T10:15:04.862916+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1012:in `process_route'
+2015-05-21T10:15:04.862917+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:972:in `block in route!'
+2015-05-21T10:15:04.862918+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:971:in `each'
+2015-05-21T10:15:04.862920+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:971:in `route!'
+2015-05-21T10:15:04.862921+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1084:in `block in dispatch!'
+2015-05-21T10:15:04.862922+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `block in invoke'
+2015-05-21T10:15:04.862923+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `catch'
+2015-05-21T10:15:04.862924+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `invoke'
+2015-05-21T10:15:04.862925+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1081:in `dispatch!'
+2015-05-21T10:15:04.862927+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:906:in `block in call!'
+2015-05-21T10:15:04.862928+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `block in invoke'
+2015-05-21T10:15:04.862929+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `catch'
+2015-05-21T10:15:04.862930+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `invoke'
+2015-05-21T10:15:04.862931+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:906:in `call!'
+2015-05-21T10:15:04.862932+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:894:in `call'
+2015-05-21T10:15:04.862935+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/rack-1.6.0/lib/rack/session/abstract/id.rb:225:in `context'
+2015-05-21T10:15:04.862934+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/rack-flash3-1.0.5/lib/rack/flash.rb:124:in `call'
+2015-05-21T10:15:04.862937+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/xss_header.rb:18:in `call'
+2015-05-21T10:15:04.862936+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/rack-1.6.0/lib/rack/session/abstract/id.rb:220:in `call'
+2015-05-21T10:15:04.862941+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+2015-05-21T10:15:04.862938+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/path_traversal.rb:16:in `call'
+2015-05-21T10:15:04.862939+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/json_csrf.rb:18:in `call'
+2015-05-21T10:15:04.862942+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+2015-05-21T10:15:04.862943+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/frame_options.rb:31:in `call'
+2015-05-21T10:15:04.862950+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/rack-1.6.0/lib/rack/logger.rb:15:in `call'
+2015-05-21T10:15:04.862953+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:218:in `call'
+2015-05-21T10:15:04.862952+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/rack-1.6.0/lib/rack/commonlogger.rb:33:in `call'
+2015-05-21T10:15:04.862954+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:211:in `call'
+2015-05-21T10:15:04.862955+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/rack-1.6.0/lib/rack/head.rb:13:in `call'
+2015-05-21T10:15:04.862956+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:181:in `call'
+2015-05-21T10:15:04.862958+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:2021:in `call'
+2015-05-21T10:15:04.862959+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1486:in `block in call'
+2015-05-21T10:15:04.862960+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1795:in `synchronize'
+2015-05-21T10:15:04.862962+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1486:in `call'
+2015-05-21T10:15:04.862963+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/thin-1.6.3/lib/thin/connection.rb:86:in `block in pre_process'
+2015-05-21T10:15:04.862964+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/thin-1.6.3/lib/thin/connection.rb:84:in `catch'
+2015-05-21T10:15:04.862965+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/thin-1.6.3/lib/thin/connection.rb:84:in `pre_process'
+2015-05-21T10:15:04.862967+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/thin-1.6.3/lib/thin/connection.rb:53:in `process'
+2015-05-21T10:15:04.862968+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/thin-1.6.3/lib/thin/connection.rb:39:in `receive_data'
+2015-05-21T10:15:04.862969+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/eventmachine-1.0.7/lib/eventmachine.rb:187:in `run_machine'
+2015-05-21T10:15:04.862970+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/eventmachine-1.0.7/lib/eventmachine.rb:187:in `run'
+2015-05-21T10:15:04.862972+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/thin-1.6.3/lib/thin/backends/base.rb:73:in `start'
+2015-05-21T10:15:04.862973+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/thin-1.6.3/lib/thin/server.rb:162:in `start'
+2015-05-21T10:15:04.862974+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/thin-1.6.3/lib/thin/controllers/controller.rb:87:in `start'
+2015-05-21T10:15:04.862975+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/thin-1.6.3/lib/thin/runner.rb:200:in `run_command'
+2015-05-21T10:15:04.862977+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/thin-1.6.3/lib/thin/runner.rb:156:in `run!'
+2015-05-21T10:15:04.862978+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/gems/thin-1.6.3/bin/thin:6:in `<top (required)>'
+2015-05-21T10:15:04.862979+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/bin/thin:23:in `load'
+2015-05-21T10:15:04.862981+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.2.0/bin/thin:23:in `<main>'
+2015-05-21T10:15:04.869737+00:00 app[web.1]: 140.114.202.172 - - [21/May/2015:10:15:04 +0000] "POST /sign_up HTTP/1.1" 500 30 0.2470
