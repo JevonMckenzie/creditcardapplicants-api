@@ -9,7 +9,7 @@ RACK_ENV=test rake db:migrate && ruby spec/credit_card_api_spec.rb
 
 ### Usage
 
-The base URL of the API is http://creditcardapplicants.herokuapp.com/
+The base URL of the API is http://creditcardapplicants-api.herokuapp.com/
 
 Use the following route to access the credit card validation function:
 
